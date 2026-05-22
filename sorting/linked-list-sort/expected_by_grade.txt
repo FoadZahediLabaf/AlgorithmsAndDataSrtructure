@@ -1,0 +1,7 @@
+Ferrari 18.00
+Verdi 19.00
+Gallo 22.50
+Rossi 24.00
+Conti 26.00
+Bianchi 28.50
+Neri 30.00
