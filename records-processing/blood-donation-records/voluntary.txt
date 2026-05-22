@@ -1,0 +1,4 @@
+A001 type Smith John
+A002 type Brown Emma
+A003 type Rossi Luca
+A004 type Bianchi Sara
