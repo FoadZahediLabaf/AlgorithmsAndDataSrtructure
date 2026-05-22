@@ -1,0 +1,13 @@
+J.K.Rowling ThePhilosopher'sStone R1S2B1 JKR1 3 1
+RW 15/08/2009
+J.K.Rowling TheChamberOfSecrets R1S2B2 JKR2 3 0
+J.K.Rowling ThePrisonerOfAzkaban R1S2B3 JKR3 2 0
+J.K.Rowling TheGobletOfFire R1S2B4 JKR4 3 1
+HP 01/09/2009
+J.K.Rowling TheOrderOfThePhoenix R1S2B5 JKR5 5 2
+HG 10/09/2009
+HP 20/09/2009
+J.K.Rowling TheHalf-BloodPrince R1S2B6 JKR6 2 1
+HG 05/09/2009
+J.K.Rowling TheDeathlyHallows R1S2B7 JKR7 5 1
+HG 15/09/2009

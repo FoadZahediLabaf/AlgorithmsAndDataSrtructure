@@ -1,0 +1,7 @@
+J.K.Rowling ThePhilosopher'sStone R1S2B1 JKR1 3
+J.K.Rowling TheChamberOfSecrets R1S2B2 JKR2 3
+J.K.Rowling ThePrisonerOfAzkaban R1S2B3 JKR3 2
+J.K.Rowling TheGobletOfFire R1S2B4 JKR4 3
+J.K.Rowling TheOrderOfThePhoenix R1S2B5 JKR5 5
+J.K.Rowling TheHalf-BloodPrince R1S2B6 JKR6 2
+J.K.Rowling TheDeathlyHallows R1S2B7 JKR7 5

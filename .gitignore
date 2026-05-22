@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled binaries
+*.out
+*.exe
+*.o
+*.obj
+*.dSYM/
+
+# Build/output folders
+build/
+output/
+
+# Generated output files
+users_borrows.txt
+book_borrows.txt

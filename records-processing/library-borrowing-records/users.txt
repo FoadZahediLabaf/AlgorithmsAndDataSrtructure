@@ -1,0 +1,3 @@
+Potter 011001 Wizard HP
+Granger 011002 Witch HG
+Weasley 011003 Wizard RW
