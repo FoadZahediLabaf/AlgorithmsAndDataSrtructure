@@ -1,0 +1,7 @@
+Rossi 24
+Bianchi 28.5
+Verdi 19
+Neri 30
+Gallo 22.5
+Conti 26
+Ferrari 18
