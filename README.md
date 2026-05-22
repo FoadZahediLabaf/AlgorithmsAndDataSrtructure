@@ -1,4 +1,3 @@
-# C-algorithms-and-data-structures
 # C Algorithms and Data Structures
 
 This repository contains a collection of C programming projects focused on algorithms, data structures, recursion, file processing, and problem solving.
