@@ -1,161 +1,209 @@
-# C Algorithms and Data Structures
+# Algorithms and Data Structures in C
 
-This repository contains a collection of C programming projects focused on algorithms, data structures, recursion, file processing, and problem solving.
+A collection of 13 standalone C programs covering algorithms, data structures, recursive problem solving, and file-based data processing.
 
-The projects were developed as academic and personal programming exercises to practice writing clean, structured, and understandable C code. Each project focuses on a specific topic such as backtracking, sorting, binary trees, linked lists, grid algorithms, string processing, or records management.
+The projects explore pointers, dynamic memory allocation, linked structures, trees, sorting, backtracking, and structured input/output through executable examples.
 
-## Repository Goals
+## Overview
 
-The main goals of this repository are to:
+Each project focuses on a specific problem and includes its own source code and documentation.
 
-- practice core programming concepts in C
-- improve problem-solving skills through algorithmic exercises
-- work with dynamic memory allocation and pointers
-- organize C projects in a clean and readable structure
-- document each project with clear explanations, input/output formats, and compile/run instructions
+The collection ranges from classic algorithms, such as merge sort and binary search trees, to applications involving student records, library borrowing data, and grid exploration.
 
-## Topics Covered
-
-- Recursion and backtracking
-- Sorting algorithms
-- Binary trees and binary search trees
-- Linked lists
-- Grid-based algorithms
-- String and file processing
-- Records processing with structs
-- Dynamic memory allocation
-- File input/output in C
-
-## Repository Structure
-
-```text
-C-algorithms-and-data-structures/
-├── README.md
-├── recursion-and-backtracking/
-│   ├── maze-solver/
-│   ├── knight-tour/
-│   ├── magic-square/
-│   └── polish-expression/
-│
-├── sorting/
-│   ├── merge-sort/
-│   └── linked-list-sort/
-│
-├── trees/
-│   ├── binary-search-tree/
-│   └── binary-tree-traversal/
-│
-├── linked-lists/
-│   └── overlapping-linked-lists/
-│
-├── grid-algorithms/
-│   └── region-marker/
-│
-├── strings-and-files/
-│   └── acronym-generator/
-│
-└── records-processing/
-    ├── library-borrowing-records/
-    └── blood-donation-records/
-```
+Programs are organized by topic and can be compiled independently.
 
 ## Projects
 
 ### Recursion and Backtracking
 
-| Project | Description | Main Concepts |
-|---|---|---|
-| Maze Solver | Solves a maze using recursive backtracking and finds one path, all paths, and the shortest path. | Recursion, backtracking, dynamic memory, file input |
-| Knight Tour | Solves the Knight's Tour problem on a chessboard using recursive backtracking. | Backtracking, recursion, board traversal |
-| Magic Square | Generates or searches for magic squares. | Recursion, backtracking, matrix handling |
-| Polish Expression | Evaluates or processes expressions written in Polish notation. | Recursion, expression parsing |
+| Project | Description |
+|---|---|
+| [Maze Solver](recursion-and-backtracking/maze-solver) | Finds an escape path, counts possible escape paths, and identifies the shortest one using recursive backtracking. |
+| [Knight's Tour](recursion-and-backtracking/knight-tour) | Searches for a tour on an 8×8 chessboard using backtracking and Warnsdorff's heuristic. |
+| [Magic Square](recursion-and-backtracking/magic-square) | Searches for a normal magic square whose rows, columns, and main diagonals have the same sum. |
+| [Prefix Expression Evaluator](recursion-and-backtracking/polish-expression) | Recursively evaluates arithmetic expressions written in prefix Polish notation. |
 
 ### Sorting
 
-| Project | Description | Main Concepts |
-|---|---|---|
-| Merge Sort | Implements merge sort for integer arrays. | Divide and conquer, recursion, sorting |
-| Linked List Sort | Sorts data stored in a linked list. | Linked lists, sorting, pointers |
+| Project | Description |
+|---|---|
+| [Merge Sort](sorting/merge-sort) | Sorts command-line integers in ascending or descending order using divide and conquer. |
+| [Linked List Sort](sorting/linked-list-sort) | Loads student records and writes them ordered by surname or grade. |
 
 ### Trees
 
-| Project | Description | Main Concepts |
-|---|---|---|
-| Binary Search Tree | Implements insertion, search, deletion, and traversal operations for a BST. | Trees, recursion, dynamic memory |
-| Binary Tree Traversal | Builds a binary tree from input and prints preorder, inorder, and postorder traversals. | Trees, traversal, recursion |
+| Project | Description |
+|---|---|
+| [Binary Search Tree](trees/binary-search-tree) | Provides interactive insertion, search, deletion, traversal, and tree summaries. |
+| [Binary Tree Traversal](trees/binary-tree-traversal) | Builds a binary tree interactively and reports traversals, node count, and height. |
 
 ### Linked Lists
 
-| Project | Description | Main Concepts |
-|---|---|---|
-| Overlapping Linked Lists | Works with linked lists and detects or handles overlapping nodes/lists. | Linked lists, pointers, memory management |
+| Project | Description |
+|---|---|
+| [Overlapping Linked Lists](linked-lists/overlapping-linked-lists) | Connects the same student records through two linked orders: one by name and another by exam mark. |
 
 ### Grid Algorithms
 
-| Project | Description | Main Concepts |
-|---|---|---|
-| Region Marker | Labels connected regions in a grid using flood fill. | Recursion, flood fill, matrices |
+| Project | Description |
+|---|---|
+| [Region Marker](grid-algorithms/region-marker) | Uses recursive flood fill to identify and label enclosed background regions in a grid, considering horizontal and vertical connections. |
 
 ### Strings and Files
 
-| Project | Description | Main Concepts |
-|---|---|---|
-| Acronym Generator | Generates acronyms from words by selecting characters according to a rule. | Strings, recursion, file I/O |
+| Project | Description |
+|---|---|
+| [Acronym Generator](strings-and-files/acronym-generator) | Generates character combinations from input words while alternating letters and digits. |
 
 ### Records Processing
 
-| Project | Description | Main Concepts |
-|---|---|---|
-| Library Borrowing Records | Processes users, catalogue, and borrowing files to generate user/book borrowing summaries. | Structs, file I/O, dynamic memory |
-| Blood Donation Records | Processes donor and donation records to calculate donation counts and total donated blood. | Structs, file I/O, arrays, strings |
+| Project | Description |
+|---|---|
+| [Library Borrowing Records](records-processing/library-borrowing-records) | Processes user, catalogue, and borrowing files to generate summaries by user and by book. |
+| [Blood Donation Records](records-processing/blood-donation-records) | Combines donor and donation records to calculate donation counts and total donated volume. |
 
-## How to Compile Projects
+## Concepts Covered
 
-Most projects can be compiled using `gcc` from inside their project folder.
+- Recursive decomposition and backtracking.
+- Divide-and-conquer sorting.
+- Binary trees and binary search trees.
+- Linked lists and multiple links within shared records.
+- Grid traversal and flood fill.
+- Expression parsing.
+- Structs, pointers, and dynamic memory.
+- String handling and command-line arguments.
+- Text-file parsing and report generation.
 
-Example:
+## Repository Structure
 
-```bash
-gcc project_file.c -o project_name
+```text
+AlgorithmsAndDataSrtructure/
+├── recursion-and-backtracking/
+│   ├── maze-solver/
+│   ├── knight-tour/
+│   ├── magic-square/
+│   └── polish-expression/
+├── sorting/
+│   ├── merge-sort/
+│   └── linked-list-sort/
+├── trees/
+│   ├── binary-search-tree/
+│   └── binary-tree-traversal/
+├── linked-lists/
+│   └── overlapping-linked-lists/
+├── grid-algorithms/
+│   └── region-marker/
+├── strings-and-files/
+│   └── acronym-generator/
+├── records-processing/
+│   ├── library-borrowing-records/
+│   └── blood-donation-records/
+├── README.md
+└── LICENSE
 ```
 
-Then run:
+## Getting Started
+
+### Requirements
+
+- A C compiler, such as GCC or Clang.
+- A terminal.
+
+Each program is compiled separately from its project directory.
+
+### Clone the Repository
 
 ```bash
-./project_name
+git clone https://github.com/FoadZahediLabaf/AlgorithmsAndDataSrtructure.git
+cd AlgorithmsAndDataSrtructure
 ```
 
-Some projects require input files. In those cases, check the project-specific `README.md` inside the folder.
-
-Example:
+### Example: Merge Sort
 
 ```bash
-./library_borrowing_records users.txt catalogue.txt borrows.txt
+cd sorting/merge-sort
+
+gcc -std=c11 -Wall -Wextra merge_sort.c -o merge_sort.out
+
+./merge_sort.out -a 9 3 7 1 0 4
+./merge_sort.out -d 9 3 7 1 0 4
 ```
 
-## Documentation
+The `-a` option selects ascending order, while `-d` selects descending order.
 
-Each larger project contains its own `README.md` explaining:
+### Example: Prefix Expression Evaluation
 
-- what the program does
-- the input format
-- the output format
-- how the program works
-- how to compile and run it
-- the main C concepts practiced
+From the repository root:
 
-## Notes
+```bash
+cd recursion-and-backtracking/polish-expression
 
-Some exercises are based on academic programming problems or textbook-style exercises. When a project is based on a specific exercise source, the project README gives credit for the exercise idea and file format. The implementations and organization in this repository were written independently.
+gcc -std=c11 -Wall -Wextra polish_expression.c -o polish_expression.out
 
-Generated executable files and temporary build outputs are not included in the repository.
+./polish_expression.out "* + 5 6 7"
+```
+
+The expression corresponds to `(5 + 6) × 7`.
+
+Pass the complete expression as a quoted command-line argument.
+
+### Example: Maze Solver
+
+From the repository root:
+
+```bash
+cd recursion-and-backtracking/maze-solver
+
+gcc -std=c11 -Wall -Wextra maze_solver.c -o maze_solver.out
+
+./maze_solver.out input.txt
+```
+
+The program reads the supplied maze and prints its path analysis.
+
+## Input and Output
+
+Programs use different interaction styles:
+
+- **Command-line arguments:** merge sort, magic square, and prefix expressions.
+- **Interactive commands or prompts:** linked-list programs and tree programs.
+- **Input files:** maze solving, region marking, acronym generation, and records processing.
+
+Run file-based examples from their project directories so that relative input paths resolve correctly.
+
+Several folders include sample inputs and expected-output files. Their local README documents the file format, commands, and output behavior.
+
+Compiled executables ending in `.out` are excluded by the repository's `.gitignore`.
+
+## Project Documentation
+
+Each project has a dedicated README describing:
+
+- The problem being solved.
+- The algorithm or data structure used.
+- Input formats and supported commands.
+- Compilation and execution.
+- Example behavior and relevant assumptions.
+
+The programs are educational implementations. Backtracking problems can become expensive as the search space grows, and individual exercises have their own input constraints.
+
+## Exercise Sources
+
+Some projects are based on exercises from:
+
+**Advanced Programming and Problem-Solving Strategies in C — Part II:
+Algorithms and Data Structures, Second Edition.**
+
+The corresponding project README identifies the exercise source and explains the relationship between the original problem and this implementation.
 
 ## Author
 
 **Foad Zahedi Labaf**
 
-Computer Engineering graduate and Master's student in Computer Science and Engineering at Politecnico di Milano.
+## License and Copyright
 
-## License
+© 2026 Foad Zahedi Labaf.
 
-This repository is licensed under the MIT License.
+Licensed under the [MIT License](LICENSE).
+
+Third-party materials remain subject to their original licenses and terms.
